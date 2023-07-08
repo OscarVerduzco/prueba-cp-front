@@ -1,0 +1,24 @@
+/* datable css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Path: src/app/tabla-datos/tabla-datos.component.html */
+/* Compare this snippet from src/app/formulario/formulario.component.html: */
+/*  */
+/*   <div class="container"> */

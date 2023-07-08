@@ -1,0 +1,18 @@
+<table>
+    <thead>
+      <tr>
+        <th>ID Colonia</th>
+        <th>Nombre Colonia</th>
+        <th>Nombre Municipio</th>
+        <th>Nombre Estado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of data">
+        <td>{{ item.idColonia }}</td>
+        <td>{{ item.nombreColonia }}</td>
+        <td>{{ item.nombreMunicipio }}</td>
+        <td>{{ item.nombreEstado }}</td>
+      </tr>
+    </tbody>
+  </table>

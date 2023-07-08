@@ -1,0 +1,13 @@
+<div>
+    <h2>Formulario</h2>
+    <form>
+      <label for="postalCode">Código Postal:</label>
+      <input type="text" id="postalCode" name="postalCode" [(ngModel)]="postalCode">
+      <button type="button" (click)="submitForm()">Consultar</button>
+    </form>
+  </div>
+
+
+<app-tabla-datos [data]="responseFromAPI"></app-tabla-datos>
+
+  
